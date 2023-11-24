@@ -1,0 +1,984 @@
+#include "defaultDescription.inc"
+ 
+class Header
+{
+	gameType = Warlords;
+	minPlayers = 1;
+	maxPlayers = 16;
+};
+ 
+class CfgWLRequisitionPresets
+{
+	class FFAA
+	{
+		class WEST
+		{
+			class Infantry
+            {
+                class ffaa_brilat_soldado
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_fusilero_mochila
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_c90
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_medico
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_proveedor_spike
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class ffaa_piloto_famet
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class ffaa_piloto_hmsd_famet
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class ffaa_crew_famet
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_carrista
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_ingeniero
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_mg42
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_alcotan
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_mg4
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_tirador
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_jefe_peloton
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_granadero
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_operador_UAV
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_jefe_escuadra
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_proveedor_alcotan
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_observador
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class ffaa_brilat_francotirador_barrett
+                {
+                    cost = 200;
+                    requirements[] = {};
+                };
+				class ffaa_ar_fgne_soldado_ds
+                {
+                    cost = 200;
+                    requirements[] = {};
+                };
+				class ffaa_ar_fgne_fusilero_mochila_ds
+                {
+                    cost = 200;
+                    requirements[] = {};
+                };
+				class ffaa_ar_fgne_lg_ds
+                {
+                    cost = 200;
+                    requirements[] = {};
+                };
+				class ffaa_ar_fgne_sabot_ds
+                {
+                    cost = 300;
+                    requirements[] = {};
+                };
+				class ffaa_ar_fgne_lider_ds
+                {
+                    cost = 300;
+                    requirements[] = {};
+                };
+				class ffaa_ar_fgne_medico_ds
+                {
+                    cost = 300;
+                    requirements[] = {};
+                };
+			};
+			class Vehicles
+			{
+				class ffaa_et_anibal
+				{	
+					cost = 250;
+					requirements[] = {};
+				};
+				class ffaa_et_vamtac_trans
+				{
+					cost = 350;
+					requirements[] = {};
+				};
+				class ffaa_et_vamtac_trans_blind
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class ffaa_et_lince_ambulancia
+				{
+					cost = 650;
+					requirements[] = {};
+				};
+				class ffaa_et_m250_recuperacion_blin
+				{
+					cost = 700;
+					requirements[] = {};
+				};
+				class ffaa_et_m250_carga_blin
+				{
+					cost = 700;
+					requirements[] = {};
+				};
+				class ffaa_et_pegaso_carga_lona
+				{
+					cost = 750;
+					requirements[] = {};
+				};
+				class ffaa_et_m250_combustible_blin
+				{
+					cost = 800;
+					requirements[] = {};
+				};
+				class ffaa_et_m250_repara_municion_blin
+				{
+					cost = 1100;
+					requirements[] = {};
+				};
+				class ffaa_et_lince_mg3
+				{
+					cost = 1200;
+					requirements[] = {};
+				};
+				class ffaa_et_lince_lag40
+				{
+					cost = 1400;
+					requirements[] = {};
+				};
+				class ffaa_et_vamtac_st5_mg3
+				{
+					cost = 1500;
+					requirements[] = {};
+				};
+				class ffaa_et_vamtac_st5_m2
+				{
+					cost = 1500;
+					requirements[] = {};
+				};
+				class ffaa_et_vamtac_st5_lag40
+				{
+					cost = 1650;
+					requirements[] = {};
+				};
+				class ffaa_et_vamtac_st5_spike
+				{
+					cost = 2100;
+					requirements[] = {};
+				};
+				class ffaa_et_vamtac_mistral
+				{
+					cost = 2250;
+					requirements[] = {};
+				};
+				class ffaa_et_vamtac_cardom
+				{
+					cost = 2500;
+					requirements[] = {};
+				};
+				class ffaa_et_rg31_samson
+				{
+					cost = 3500;
+					requirements[] = {};
+				};
+				class ffaa_et_toa_ambulancia
+				{
+					cost = 3500;
+					requirements[] = {};
+				};
+				class ffaa_et_toa_m2
+				{
+					cost = 3700;
+					requirements[] = {};
+				};
+				class ffaa_et_toa_zapador
+				{
+					cost = 3700;
+					requirements[] = {};
+				};
+				class ffaa_et_toa_spike
+				{
+					cost = 4000;
+					requirements[] = {};
+				};
+				class ffaa_et_toa_mando
+				{
+					cost = 4500;
+					requirements[] = {};
+				};
+				class ffaa_et_rg31_rollers
+				{
+					cost = 4500;
+					requirements[] = {};
+				};
+				class ffaa_ar_piranhaIIIC
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class ffaa_ar_piranhaIIIC_lance
+				{
+					cost = 5500;
+					requirements[] = {};
+				};
+				class ffaa_et_pizarro_mauser
+				{
+					cost = 5750;
+					requirements[] = {};
+				};
+				class ffaa_et_leopardo
+				{
+					cost = 6500;
+					requirements[] = {};
+				};
+			};
+			class Aircraft
+			{
+				class ffaa_famet_ec135
+				{
+					cost = 1000;
+					requirements[] = { "H" };
+				};
+				class ffaa_famet_cougar
+				{
+					cost = 1300;
+					requirements[] = { "H" };
+				};
+				class ffaa_famet_cougar_armed
+				{
+					cost = 1300;
+					requirements[] = { "H" };
+				};
+				class ffaa_nh90_tth_transport
+				{
+					cost = 1500;
+					requirements[] = { "H" };
+				};
+				class ffaa_nh90_tth_cargo
+				{
+					cost = 1500;
+					requirements[] = { "H" };
+				};
+				class ffaa_famet_cougar_armed
+				{
+					cost = 2000;
+					requirements[] = { "H" };
+				};
+				class ffaa_nh90_tth_armed
+				{
+					cost = 2200;
+					requirements[] = { "H" };
+				};
+				class ffaa_famet_ch47_mg
+				{
+					cost = 3000;
+					requirements[] = { "H" };
+				};
+				class ffaa_famet_ch47_mg_cargo
+				{
+					cost = 3000;
+					requirements[] = { "H" };
+				};
+				class ffaa_famet_tigre
+				{
+					cost = 3500;
+					requirements[] = { "H" };
+				};
+				class ffaa_ea_hercules
+				{
+					cost = 5300;
+					requirements[] = { "A" };
+				};
+				class ffaa_ea_hercules_cargo
+				{
+					cost = 5200;
+					requirements[] = { "A" };
+				};
+				class ffaa_ar_harrier
+				{
+					cost = 5700;
+					requirements[] = { "A" };
+				};
+				class ffaa_ea_ef18m
+				{
+					cost = 9000;
+					requirements[] = { "A" };
+				};
+				
+			};
+			class Naval
+            {
+				class ffaa_ar_supercat
+				{
+					cost = 200;
+					requirements[] = { "W" };
+				};
+				class ffaa_ar_zodiac_hurricane_long
+				{
+					cost = 250;
+					requirements[] = { "W" };
+				};
+				class ffaa_ar_lcm
+				{
+					cost = 550;
+					requirements[] = { "W" };
+				};
+            };
+            class Gear
+            {
+                class uns_resupply_crate_us
+                {
+                    cost = 500;
+                    requirements[] = {};
+                };
+				class ffaa_armas_spain
+                {
+                    cost = 250;
+                    requirements[] = {};
+                };
+            };
+			class Defences
+			{
+				class ffaa_m2_tripode
+				{
+					cost = 80;
+					requirements[] = {};
+					offset[] = {};
+				};
+				class ffaa_lag40_tripode
+				{
+					cost = 200;
+					requirements[] = {};
+					offset[] = {};
+				};
+				class ffaa_tow_tripode
+				{
+					cost = 500;
+					requirements[] = {};
+					offset[] = {};
+				};
+				class ffaa_spike_tripode
+				{
+					cost = 650;
+					requirements[] = {};
+					offset[] = {};
+				};
+				class ffaa_lanzador_nasams
+				{
+					cost = 15000;
+					requirements[] = {};
+					offset[] = {};
+				};
+			};
+		};
+
+class CfgWLRequisitionPresets
+{
+	class UNS_ASSETS
+	{
+		class EAST
+		{
+			class Infantry
+            {
+                class rhs_faction_vdv
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_rifleman
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_efreitor
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_grenadier
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_engineer
+                {
+                    cost = 100;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_at
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_aa
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_medic
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_sergeant
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_armoredcrew
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_grenadier_rpg
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_flora_arifleman_rpk
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_rifleman_scout_akm
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_rifleman_scout
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_arifleman_scout
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_rifleman_akms
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_marksman_vss
+                {
+                    cost = 150;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_marksman_vss
+                {
+                    cost = 200;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_rifleman_ak103
+                {
+                    cost = 200;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_machinegunner_assistant
+                {
+                    cost = 300;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_arifleman
+                {
+                    cost = 300;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_rifleman_asval
+                {
+                    cost = 300;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_rifleman_asval
+                {
+                    cost = 300;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_arifleman_rpk_scout
+                {
+                    cost = 300;
+                    requirements[] = {};
+                };
+				class rhs_vdv_recon_marksman
+                {
+                    cost = 350;
+                    requirements[] = {};
+                };
+			};
+			class Vehicles
+			{
+				class rhs_uaz_vdv
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class rhs_tigr_vdv
+				{
+					cost = 300;
+					requirements[] = {};
+				};
+				class rhs_tigr_m_vdv
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class rhs_tigr_sts_vdv
+				{
+					cost = 700;
+					requirements[] = {};
+				};
+				class rhs_zil131_flatbed_cover_vdv
+				{
+					cost = 400;
+					requirements[] = {};
+				};
+				class rhs_kamaz5350_open_vdv
+				{
+					cost = 550;
+					requirements[] = {};
+				};
+				class rhs_kamaz5350_vdv
+				{
+					cost = 550;
+					requirements[] = {};
+				};
+				class rhs_kamaz5350_flatbed_cover_vdv
+				{
+					cost = 550;
+					requirements[] = {};
+				};
+				class RHS_Ural_Fuel_VDV_01
+				{
+					cost = 650;
+					requirements[] = {};
+				};
+				class RHS_Ural_Repair_VDV_01
+				{
+					cost = 700;
+					requirements[] = {};
+				};
+				class RHS_Ural_Ammo_VDV_01
+				{
+					cost = 750;
+					requirements[] = {};
+				};
+				class rhs_kamaz5350_ammo_vdv
+				{
+					cost = 850;
+					requirements[] = {};
+				};
+				class rhsgref_BRDM2UM_vdv
+				{
+					cost = 950;
+					requirements[] = {};
+				};
+				class rhsgref_BRDM2_HQ_vdv
+				{
+					cost = 1000;
+					requirements[] = {};
+				};
+				class rhsgref_BRDM2_vdv
+				{
+					cost = 1500;
+					requirements[] = {};
+				};
+				class rhsgref_BRDM2_ATGM_vdv
+				{
+					cost = 1750;
+					requirements[] = {};
+				};
+				class rhs_btr60_vdv
+				{
+					cost = 1850;
+					requirements[] = {};
+				};
+				class rhs_btr70_vdv
+				{
+					cost = 1600;
+					requirements[] = {};
+				};
+				class rhs_btr80_vdv
+				{
+					cost = 1950;
+					requirements[] = {};
+				};
+				class rhs_btr80a_vdv
+				{
+					cost = 2000;
+					requirements[] = {};
+				};
+				class rhs_bmp1_vdv
+				{
+					cost = 2100;
+					requirements[] = {};
+				};
+				class rhs_bmp1p_vdv
+				{
+					cost = 2100;
+					requirements[] = {};
+				};
+				class rhs_bmp2_vdv
+				{
+					cost = 2500;
+					requirements[] = {};
+				};
+				class rhs_bmp2d_vdv
+				{
+					cost = 3000;
+					requirements[] = {};
+				};
+				class rhs_bmp2k_vdv
+				{
+					cost = 3250;
+					requirements[] = {};
+				};
+				class rhs_bmd1r
+				{
+					cost = 3500;
+					requirements[] = {};
+				};
+				class rhs_bmd1pk
+				{
+					cost = 4000;
+					requirements[] = {};
+				};
+				class rhs_bmd1pk
+				{
+					cost = 4000;
+					requirements[] = {};
+				};
+				class rhs_bmd2m
+				{
+					cost = 4100;
+					requirements[] = {};
+				};
+				class rhs_bmd4ma_vdv
+				{
+					cost = 5250;
+					requirements[] = {};
+				};
+				class rhs_sprut_vdv
+				{
+					cost = 5500;
+					requirements[] = {};
+				};
+			};
+			class Aircraft
+			{
+				class RHS_Mi8T_vdv
+				{
+					cost = 1000;
+					requirements[] = { "H" };
+				};
+				class RHS_Mi8mt_vdv
+				{
+					cost = 1100;
+					requirements[] = { "H" };
+				};
+				class RHS_Mi8mt_Cargo_vdv
+				{
+					cost = 1200;
+					requirements[] = { "H" };
+				};
+				class RHS_Mi8mtv3_Cargo_vdv
+				{
+					cost = 2550;
+					requirements[] = { "H" };
+				};
+				class RHS_Mi8MTV3_vdv
+				{
+					cost = 2750;
+					requirements[] = { "H" };
+				};
+				class RHS_Mi8MTV3_heavy_vdv
+				{
+					cost = 3000;
+					requirements[] = { "H" };
+				};
+				class RHS_Mi24P_vdv
+				{
+					cost = 4100;
+					requirements[] = { "H" };
+				};
+				class RHS_Mi24V_vdv
+				{
+					cost = 5200;
+					requirements[] = { "H" };
+				};
+				
+			};
+			
+            };
+			class Gear
+            {
+                class rhs_weapon_crate
+                {
+                    cost = 250;
+                    requirements[] = {};
+                };
+				class rhs_launcher_crate
+                {
+                    cost = 250;
+                    requirements[] = {};
+                };
+            };
+			class Defences
+			{
+				class rhs_KORD_high_VDV
+				{
+					cost = 100;
+					requirements[] = {};
+					offset[] = {};
+				};
+				class rhs_KORD_high_VDV
+				{
+					cost = 150;
+					requirements[] = {};
+					offset[] = {};
+				};
+				class rhs_Kornet_9M133_2_vdv
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = {};
+				};
+				class rhs_Kornet_9M133_2_vdv
+				{
+					cost = 500;
+					requirements[] = {};
+					offset[] = {};
+				};
+				class RHS_ZU23_VDV
+				{
+					cost = 1000;
+					requirements[] = {};
+					offset[] = {};
+				};
+			};
+		};
+	};
+};
+ 
+class Params
+{
+	class BIS_WLStartingDaytime
+	{
+		title = $STR_A3_combatpatrol_params_1;
+		values[] = { 100, -6, 0, 6, -12 };
+		texts[] = { $STR_A3_WL_param37_value1, $STR_A3_combatpatrol_params_3, $STR_A3_MP_COOP_m03_noon, $STR_A3_MP_COOP_m03_evening, $STR_A3_combatpatrol_params_6 };
+		default = 100;
+	};
+	class BIS_WLTimeAcceleration
+	{
+		title = $STR_A3_WL_param2_title;
+		values[] = { 1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24 };
+		texts[] = { $STR_special_none, "x2", "x4", "x6", "x8", "x10", "x12", "x14", "x16", "x18", "x20", "x22", "x24" };
+		default = 4;
+	};
+	class BIS_WLProgress
+	{
+		title = $STR_A3_WL_param1_title;
+		values[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
+		texts[] = {
+			$STR_special_none,
+			$STR_A3_WL_forcedProgress_perc_1,
+			$STR_A3_WL_forcedProgress_perc_2,
+			$STR_A3_WL_forcedProgress_perc_3,
+			$STR_A3_WL_forcedProgress_perc_4,
+			$STR_A3_WL_forcedProgress_perc_5,
+			$STR_A3_WL_forcedProgress_perc_6,
+			$STR_A3_WL_forcedProgress_perc_7,
+			$STR_A3_WL_forcedProgress_perc_8,
+			$STR_A3_WL_forcedProgress_perc_9,
+			$STR_A3_WL_forcedProgress_perc_10,
+			$STR_A3_WL_forcedProgress_perc_11,
+			$STR_A3_WL_forcedProgress_perc_12
+		};
+		default = 1;
+	};
+	class BIS_WLFTEnabled
+	{
+		title = $STR_A3_fastravel1;
+		values[] = {1, 0, 2, 3, 4};
+		texts[] = { $STR_A3_WL_param3_value1, $STR_A3_WL_param3_value2, $STR_A3_WL_param3_value3, $STR_A3_WL_param3_value4, $STR_A3_WL_param3_value5 };
+		default = 1;
+	};
+	class BIS_WLScanEnabled
+	{
+		title = $STR_A3_WL_param4_title;
+		values[] = { 1, 0 };
+		texts[] = { $STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED };
+		default = 1;
+	};
+	class BIS_WLVotingResetEnabled
+	{
+		title = $STR_A3_WL_menu_resetvoting;
+		values[] = { 1, 0 };
+		texts[] = { $STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED };
+		default = 1;
+	};
+	class BIS_WLAIVoting
+	{
+		title = $STR_A3_WL_param5_title;
+		values[] = { 1, 0 };
+		texts[] = { $STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED };
+		default = 0;
+	};
+	class BIS_WLArsenalEnabled
+	{
+		title = $STR_A3_Arsenal;
+		values[] = { 1, 0 };
+		texts[] = { $STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED };
+		default = 1;
+	};
+	class BIS_WLMarkersTransparency
+	{
+		title = $STR_A3_WL_param7_title;
+		values[] = { 4, 3, 2, 1, 0 };
+		texts[] = { $STR_A3_WL_param7_value1, $STR_A3_WL_markerAlpha_perc_1, $STR_A3_WL_markerAlpha_perc_2, $STR_A3_WL_markerAlpha_perc_3, $STR_A3_WL_param7_value2 };
+		default = 2;
+	};
+	class BIS_WLPlayersTransparency
+	{
+		title = $STR_A3_WL_param8_title;
+		values[] = { 4, 3, 2, 1, 0 };
+		texts[] = { $STR_A3_WL_param7_value1, $STR_A3_WL_markerAlpha_perc_1, $STR_A3_WL_markerAlpha_perc_2, $STR_A3_WL_markerAlpha_perc_3, $STR_A3_WL_param7_value2 };
+		default = 2;
+	};
+	class BIS_WLFatigueEnabled
+	{
+		title = $STR_A3_fatigue1;
+		values[] = { 1, 0 };
+		texts[] = { $STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED };
+		default = 0;
+	};
+	class BIS_WLMusic
+	{
+		title = $STR_A3_rscattributemusic_title;
+		values[] = { 1, 0 };
+		texts[] = { $STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED };
+		default = 1;
+	};
+	class BIS_WLVoice
+	{
+		title = $STR_A3_orange_faction_idap_cfgidentities_expo_name;
+		values[] = { 1, 0 };
+		texts[] = { $STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED };
+		default = 1;
+	};
+	class BIS_WLStartCP
+	{
+		title = $STR_A3_WL_param12_title;
+		values[] = { 0, 100, 250, 500, 1000, 2500, 5000 };
+		texts[] = { "0", "100", "250", "500", "1000", "2500", "5000" };
+		default = 500;
+	};
+	class BIS_WLCPMultiplier
+	{
+		title = $STR_A3_WL_param13_title;
+		values[] = { 1, 2, 3, 4, 5 };
+		texts[] = { "1x", "2x", "3x", "4x", "5x" };
+		default = 1;
+	};
+	class BIS_WLVotingTimeout
+	{
+		title = $STR_A3_WL_param14_title;
+		values[] = { 5, 10, 15, 20, 25, 30 };
+		texts[] = { "5", "10", "15", "20", "25", "30" };
+		default = 15;
+	};
+	class BIS_WLVehicleSpan
+	{
+		title = $STR_A3_WL_param15_title;
+		values[] = { 900, 1800, 3600, 5400, 7200, 1000000 };
+		texts[] = { "15", "30", "60", "90", "120", $STR_A3_WL_param15_value1 };
+		default = 3600;
+	};
+};
+ 
+class CfgWLFactionAssets
+{
+	class rhsgref_faction_cdf_ground // --- Independent
+	{
+		class InfantryGroups // --- independent faction uses group configs to spawn garrisons; you can define various group types to be randomly used
+		{
+			groups[] = {
+				""Indep" >> "rhsgref_faction_cdf_ground" >> "rhsgref_group_cdf_reg_infantry" >> "rhsgref_group_cdf_reg_infantry_squad",
+				""Indep" >> "rhsgref_faction_cdf_ground" >> "rhsgref_group_cdf_reg_infantry" >> "rhsgref_group_cdf_reg_infantry_squad_weap",
+				""Indep" >> "rhsgref_faction_cdf_ground" >> "rhsgref_group_cdf_para_infantry" >> "rhsgref_group_cdf_para_infantry_squad",
+				""Indep" >> "rhsgref_faction_cdf_ground" >> "rhsgref_group_cdf_para_infantry" >> "rhsgref_group_cdf_para_infantry_squad_weap",
+			};
+		};
+		class MotorizedGroups
+		{
+			groups[] = {
+				""Indep" >> "rhsgref_faction_cdf_ground" >> "rhs_group_cdf_ural" >> "rhs_group_cdf_ural_squad_sniper",
+				"'Indep" >> "Indep" >> "rhsgref_faction_cdf_ground" >> "rhs_group_cdf_ural" >> "rhs_group_cdf_ural_squad_2mg",
+				""Indep" >> "rhsgref_faction_cdf_ground" >> "rhs_group_cdf_ural" >> "rhs_group_cdf_ural_squad"
+			};
+		};
+	};
+};
